@@ -72,4 +72,7 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: [{
+    pattern: /(bg|text|border)-w3m-(blue|dark-blue|magenta|orange|green|purple|teal)/
+  }]
 }
